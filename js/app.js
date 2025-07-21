@@ -607,7 +607,7 @@ const menu = [
     title: "Mix Usal ",
     category: "Khthol/Usal/Pulses",
     price: 15.99,
-    img: "https://india.neelamfoodland.in/cdn/shop/products/USAL_20MISAL_20MIX_2a6f8132-82ea-45e1-abb1-e6ee7b6af579_800x.jpg?v=1734379064",
+    img: "https://i0.wp.com/kalimirchbysmita.com/wp-content/uploads/2022/07/Usal-Pav-04.jpg?w=1000&ssl=1",
     desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed `,
   },
   {
@@ -615,7 +615,7 @@ const menu = [
     title: "Chauli Usal ",
     category: "Khthol/Usal/Pulses",
     price: 15.99,
-    img: "https://www.archanaskitchen.com/images/archanaskitchen/1-Author/sibyl_sunitha/Maharashtrian_Chavali_Chi_Usal_Recipe_Black_eyed_peas_Curry_Recipe.jpg",
+    img: "https://madhurasrecipe.com/wp-content/uploads/2020/10/Chavali-Chi-Bhaji-Marathi-Recipe.jpg",
     desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed `,
   },
   {

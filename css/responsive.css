@@ -302,6 +302,9 @@
   .defaultPadding {
     padding: 50px 0;
   }
+.banner{
+  height: 100vh;
+}
   .banner .owl-carousel img {
     height: 100vh;
     object-fit: cover;
@@ -446,13 +449,16 @@
     top: 61%;
   }
   .owl-carousel .one .container {
-    top: 56%;
+    top: 54%;
   }
   .owl-carousel .two .container {
-    top: 44%;
+    top: 48%;
   }
   .banner .owl-carousel .three .container {
-    top: 56%;
+    top: 50%;
+  }
+  .banner .owl-nav{
+display: none;
   }
 
   .B_atached {

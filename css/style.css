@@ -308,6 +308,13 @@ header:not(#productImage .menu-item .item-info header) {
 .owl-nav button:focus {
   outline: none;
 }
+.banner{
+  height: 100vh;
+}
+.banner.homePage0{
+height: calc(100vh + 100px);
+background-color: #0c0c0c;
+}
 .banner .owl-carousel img {
   height: calc(100vh + 100px);
   object-fit: cover;
@@ -369,9 +376,7 @@ header:not(#productImage .menu-item .item-info header) {
 .owl-carousel .two span {
   font-size: 50px;
 }
-.owl-carousel .two .display-3{
-  line-height: 120px;
-}
+
 .owl-carousel .two span:first-of-type {
   color: var(--yellow);
 }
@@ -814,7 +819,7 @@ header:not(#productImage .menu-item .item-info header) {
 .Testimonial {
   color: #ffffff;
   text-align: center;
-  background: url('../image/47795c37b81cd9d6279f90c97990942d.jfif') no-repeat
+  background: url('../image/bannerImage.webp') no-repeat
     center;
   background-size: cover;
 }
@@ -1235,9 +1240,44 @@ textarea {
 /* Text Cards Section css End */
 
 /* Catering section start */
+.serviceIcon{
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  color: var(--yellow);
+}
+
+
 .cateringSection{
   background: linear-gradient(180deg, #00000094, #00000094) center/cover no-repeat, url('../image/CateringImage.webp') center/cover no-repeat;
   color: #ffffff;
+}
+.cateringSection .secH{
+  color: var(--yellow);
+}
+.cateringSection .container>.row{
+row-gap: 24px;
+}
+.cateringUl{
+  max-width: 950px;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 8px;
+}
+.cateringUl li{
+  width: 240px;
+}
+.cateringRow{
+  row-gap: 24px;
+}
+.cateringRow .zoom{
+  aspect-ratio: 4/3;
+  object-fit: cover;
 }
 /* Catering section end */
 
