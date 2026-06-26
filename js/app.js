@@ -294,7 +294,7 @@ const menu = [
     title: "Kaju Halwa ",
     category: "Sweet",
     price: 15.99,
-    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Sooji_Halwa.JPG/800px-Sooji_Halwa.JPG?20160710115419",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Suji_Atta_Mix_Halwa.JPG/960px-Suji_Atta_Mix_Halwa.JPG?_=20150613145703",
     desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed `,
   },
   {
@@ -302,7 +302,7 @@ const menu = [
     title: "Kaju Akrot Halwa ",
     category: "Sweet",
     price: 15.99,
-    img: "https://zeroguiltbyarchana.com/wp-content/uploads/2021/03/Akhrot-Halwa-scaled.jpg",
+    img: "https://i.pinimg.com/736x/dd/9d/4e/dd9d4ee558342f55ff2a52b1f0995590.jpg",
     desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed `,
   },
   {
@@ -615,7 +615,7 @@ const menu = [
     title: "Chauli Usal ",
     category: "Khthol/Usal/Pulses",
     price: 15.99,
-    img: "https://madhurasrecipe.com/wp-content/uploads/2020/10/Chavali-Chi-Bhaji-Marathi-Recipe.jpg",
+    img: "https://shwetainthekitchen.com/wp-content/uploads/2021/02/Lobia-Masala.jpg",
     desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed `,
   },
   {
