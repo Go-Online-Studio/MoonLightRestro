@@ -430,7 +430,7 @@ const menu = [
     title: "Paneer Corn Ghughara ",
     category: "Farshan",
     price: 15.99,
-    img: "image/Paneer_Corn_Ghugara_Image.png",
+    img: "image/Paneer_Corn_Ghugara_Image.webp",
     desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed `,
   },
   {
@@ -495,7 +495,7 @@ const menu = [
     title: "Aloo Kaju ",
     category: "Seasonal Vegetables",
     price: 15.99,
-    img: "image/aloo_Kaju_Sabji.png",
+    img: "image/aloo_Kaju_Sabji.webp",
     desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed `,
   },
   {
