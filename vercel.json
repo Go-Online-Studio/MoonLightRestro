@@ -1,0 +1,30 @@
+{
+  "redirects": [
+    {
+      "source": "/index.html",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/aboutUs",
+      "destination": "/aboutUs.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/menu",
+      "destination": "/menu.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/chefs",
+      "destination": "/chefs.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/contact",
+      "destination": "/contact.html",
+      "statusCode": 301
+    }
+  ],
+  "cleanUrls": false
+}

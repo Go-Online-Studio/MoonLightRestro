@@ -1,0 +1,18 @@
+RewriteEngine On
+
+# 1. Force HTTPS
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# 2. Force non-www (canonical domain)
+RewriteCond %{HTTP_HOST} ^www\.moonlightrestoandcafe\.com [NC]
+RewriteRule ^(.*)$ https://moonlightrestoandcafe.com/$1 [L,R=301]
+
+# 3. Redirect /index.html to root /
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html\ HTTP/ [NC]
+RewriteRule ^index\.html$ https://moonlightrestoandcafe.com/ [L,R=301]
+
+# 4. Redirect extensionless requests to their .html equivalent
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^([^/]+)$ https://moonlightrestoandcafe.com/$1.html [L,R=301]
